@@ -2,7 +2,7 @@
   "name": "task_manager",
   "version": "1.0.0",
   "description": "mvc task manager",
-  "homepage": "https://github.com/owner/project#readme",
+  "homepage": "https://github.com/ant1758/PHP-MVC-Task-Manager-without-frameworks",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
