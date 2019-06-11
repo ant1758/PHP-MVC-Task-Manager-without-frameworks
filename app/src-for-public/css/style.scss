@@ -1,0 +1,199 @@
+/*
+ Author:       Anton Shpak
+ Template:     task_manager
+*/
+
+//fonts
+@font-face {
+  font-family: 'Museo Sans Cyrl 100';
+  src: url('fonts/MuseoSansCyrl-100.eot');
+  src: local('fonts/MuseoSansCyrl-100'),
+  url('fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+  url('fonts/MuseoSansCyrl-100.woff') format('woff'),
+  url('fonts/MuseoSansCyrl-100.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl 300';
+  src: url('fonts/MuseoSansCyrl-300.eot');
+  src: local('fonts/MuseoSansCyrl-300'),
+  url('fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+  url('fonts/MuseoSansCyrl-300.woff') format('woff'),
+  url('fonts/MuseoSansCyrl-300.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl 500';
+  src: url('/fonts/fonts/MuseoSansCyrl-500.eot');
+  src: local('fonts/MuseoSansCyrl-500'),
+  url('fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
+  url('fonts/MuseoSansCyrl-500.woff') format('woff'),
+  url('fonts/MuseoSansCyrl-500.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl 700';
+  src: url('fonts/MuseoSansCyrl-700.eot');
+  src: local('fonts/MuseoSansCyrl-700'),
+  url('fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+  url('fonts/MuseoSansCyrl-700.woff') format('woff'),
+  url('fonts/MuseoSansCyrl-700.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl 900';
+  src: url('fonts/MuseoSansCyrl-900.eot');
+  src: local('fonts/MuseoSansCyrl-900'),
+  url('fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
+  url('fonts/MuseoSansCyrl-900.woff') format('woff'),
+  url('fonts/MuseoSansCyrl-900.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+//variables
+$font1: 'Museo Sans Cyrl 100', sans-serif;
+$font3: 'Museo Sans Cyrl 300', sans-serif;
+$font5: 'Museo Sans Cyrl 500', sans-serif;
+$font7: 'Museo Sans Cyrl 700', sans-serif;
+$font9: 'Museo Sans Cyrl 900', sans-serif;
+$bg = #ccc;
+
+//basic
+html,
+body {
+  font: normal 14px $font5;
+  color: black;
+  background: white;
+
+  h1,h2,h3{
+    font-family: $font9;
+    color: black;
+  }
+  //header
+
+  //nav
+  nav{
+    margin: 15px 0;
+    background: $bg;
+    border-radius: 5px;
+  }
+  .navbar-fixed-bottom, .navbar-fixed-top, .navbar-static-top{
+    border-radius: 5px;
+  }
+
+  //body
+  .operation-cont{
+    float: right;
+  }
+  input[type=checkbox]{
+    margin: 10px;
+  }
+
+  //footer
+  footer{
+    background: white;
+    color: black;
+    padding: 15px 0px;
+  }
+  footer p{
+    text-align: center;
+    margin: 0;
+  }
+
+  //medias
+  /*
+  ##Device = Desktops
+  ##Screen = 1921px to higher resolution desktops
+  */
+
+  @media (min-width: 1921px) {
+
+    //CSS
+
+  }
+  @media (min-width: 1440px) and (max-width: 1920px) {
+
+    //CSS
+
+  }
+  /*
+    ##Device = Desktops
+    ##Screen = 1281px to higher resolution desktops
+  */
+
+  @media (max-width: 1281px) {
+
+    //CSS
+
+  }
+
+
+  /*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+  @media (min-width: 1025px) and (max-width: 1280px) {
+
+    //CSS
+
+  }
+
+  /*
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+    //CSS
+
+  }
+
+  /*
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    //CSS
+
+  }
+
+  /*
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+  @media (min-width: 480px) and (max-width: 767px) {
+
+    //CSS
+
+  }
+
+  /*
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+  @media (min-width: 320px) and (max-width: 479px) {
+
+    //CSS
+
+  }
+
+}
+
+
+
+

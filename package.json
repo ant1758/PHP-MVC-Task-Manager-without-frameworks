@@ -1,0 +1,23 @@
+{
+  "name": "task_manager",
+  "version": "1.0.0",
+  "description": "mvc task manager",
+  "homepage": "https://github.com/owner/project#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "author": "Antnot Shpak",
+  "url" : "http://flyweb.pp.ua",
+  "email" : "ash.flyweb@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0",
+    "node-sass": "^4.12.0"
+  }
+}
